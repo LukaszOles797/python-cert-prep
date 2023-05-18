@@ -9,3 +9,6 @@ The program checks if the words entered by the user are palindromes.
 
 ### 3) Anagram checker
 The program checks if the words entered by the user are anagrams.
+
+### 4) Digit of life
+The program evaluates the digit of life using the birthday date entered by the user.
