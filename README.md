@@ -12,3 +12,6 @@ The program checks if the words entered by the user are anagrams.
 
 ### 4) Digit of life
 The program evaluates the digit of life using the birthday date entered by the user.
+
+### 5) Find a word
+The user is asked to enter two strings. The program searches for the word entered as the first string in the second one (all letters must be found and the their order must be preserved).
