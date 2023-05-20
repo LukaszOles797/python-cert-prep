@@ -41,17 +41,17 @@ for i in range(9):
     line_list = list(line)
     if line == "":
         break
-    if len(line) == 9:
-        sudoku.append(line_list)
-        i += 1
+    if len(line) != 9:
+        print("You have entered an incorrect number of values!")
+        proceed = False
+        break
     elif not line.isdigit():
         print("You have entered an incorrect value!")
         proceed = False
         break
     else:
-        print("You have entered an incorrect number of values!")
-        proceed = False
-        break
+        sudoku.append(line_list)
+        i += 1
     
 if len(sudoku) != 9:
     print("You have entered an incorrect number of lines!")
