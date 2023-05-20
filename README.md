@@ -18,3 +18,12 @@ The user is asked to enter two strings. The program searches for the word entere
 
 ### 6) Caesar cipher
 The user is asked to enter a string to encode and a shift value. The program encodes the value and prints the result.
+
+### 7) Tic-Tac-Toe
+
+The program simulates simple Tic-Tac-Toe game (User vs Computer). During the game user has to enter integers (from 1 to 9), such interaction results in making a move (letter "O" is displayed on the board).
+Template with function names and comments was acquired from OPENEDG Python Essentials 1 course materials.
+
+### 8) Sudoku checker
+
+The user is asked to enter a sudoku (9 lines consisting of 9 numbers each). The program checks if sudoku is valid.
